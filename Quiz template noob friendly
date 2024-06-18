@@ -1,0 +1,20 @@
+from time import sleep
+print("Quiz Time") ;sleep(2)
+
+
+#to put your questions put it at the "put q here"
+
+#to change the answer yes or no just change it at "if user_input.lower() == "yes": "
+
+#now all u need is just copy and paste your question to whatever amount u want
+#-----------------------------------------------
+print("1. put q here") ;sleep(1)
+user_input = input(" (yes/no): ")
+if user_input.lower() == "yes":
+      print("CORRECT! ") ;sleep(1.5) 
+else:
+    print("WRONG!")
+    
+    
+    
+    
